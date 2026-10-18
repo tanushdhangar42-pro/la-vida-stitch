@@ -1,0 +1,90 @@
+{
+  "info": {
+    "name": "La Vida Stitch API",
+    "description": "Run 'Login (admin)' or 'Register' first. The token is saved automatically and used by the other requests.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [{ "key": "baseUrl", "value": "http://localhost:8080/api" }, { "key": "token", "value": "" }],
+  "item": [
+    {
+      "name": "Auth",
+      "item": [
+        {
+          "name": "Register",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/register",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Test User\",\n  \"email\": \"test@example.com\",\n  \"password\": \"secret123\"\n}" } },
+          "event": [{ "listen": "test", "script": { "exec": ["const d = pm.response.json(); if (d.token) pm.collectionVariables.set('token', d.token);"] } }]
+        },
+        {
+          "name": "Login (customer)",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/login",
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"test@example.com\",\n  \"password\": \"secret123\"\n}" } },
+          "event": [{ "listen": "test", "script": { "exec": ["const d = pm.response.json(); if (d.token) pm.collectionVariables.set('token', d.token);"] } }]
+        },
+        {
+          "name": "Login (admin)",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/login",
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"admin@lavidastitch.com\",\n  \"password\": \"Admin@123\"\n}" } },
+          "event": [{ "listen": "test", "script": { "exec": ["const d = pm.response.json(); if (d.token) pm.collectionVariables.set('token', d.token);"] } }]
+        },
+        {
+          "name": "Login - wrong password (expect 401)",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }],
+            "url": "{{baseUrl}}/auth/login",
+            "body": { "mode": "raw", "raw": "{\n  \"email\": \"admin@lavidastitch.com\",\n  \"password\": \"wrong\"\n}" } }
+        }
+      ]
+    },
+    {
+      "name": "Catalogue (public)",
+      "item": [
+        { "name": "Get all products", "request": { "method": "GET", "url": "{{baseUrl}}/products" } },
+        { "name": "Get one product", "request": { "method": "GET", "url": "{{baseUrl}}/products/essential-black-tee" } },
+        { "name": "Get all patches", "request": { "method": "GET", "url": "{{baseUrl}}/patches" } },
+        { "name": "Get fabrics", "request": { "method": "GET", "url": "{{baseUrl}}/fabrics" } }
+      ]
+    },
+    {
+      "name": "Orders (needs login)",
+      "item": [
+        {
+          "name": "Place order",
+          "request": { "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/orders",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Test User\",\n  \"email\": \"test@example.com\",\n  \"phone\": \"9876543210\",\n  \"line1\": \"12 Linking Road\",\n  \"city\": \"Mumbai\",\n  \"state\": \"Maharashtra\",\n  \"pincode\": \"400050\",\n  \"paymentMethod\": \"upi\",\n  \"items\": [\n    {\n      \"productId\": \"essential-black-tee\",\n      \"name\": \"Essential Black Tee\",\n      \"patchIds\": [\"fuji\"],\n      \"patchName\": \"Fuji Rise\",\n      \"size\": \"M\",\n      \"color\": \"Black\",\n      \"quantity\": 1,\n      \"unitPrice\": 699\n    }\n  ]\n}" } }
+        },
+        { "name": "Place order without token (expect 401)",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{baseUrl}}/orders",
+            "body": { "mode": "raw", "raw": "{}" } } },
+        { "name": "Place order - bad PIN (expect 400)",
+          "request": { "method": "POST",
+            "header": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Authorization", "value": "Bearer {{token}}" }],
+            "url": "{{baseUrl}}/orders",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"T\",\n  \"email\": \"t@example.com\",\n  \"phone\": \"9876543210\",\n  \"line1\": \"x\",\n  \"city\": \"x\",\n  \"state\": \"x\",\n  \"pincode\": \"123\",\n  \"paymentMethod\": \"upi\",\n  \"items\": [{\"productId\":\"a\",\"name\":\"a\",\"size\":\"M\",\"color\":\"Black\",\"quantity\":1,\"unitPrice\":699}]\n}" } } },
+        { "name": "My orders", "request": { "method": "GET", "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }], "url": "{{baseUrl}}/orders/my" } }
+      ]
+    },
+    {
+      "name": "Other",
+      "item": [
+        { "name": "Save customization",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{baseUrl}}/customizations",
+            "body": { "mode": "raw", "raw": "{\n  \"baseColor\": \"Olive\",\n  \"fabric\": \"Premium Cotton\",\n  \"patchIds\": [\"wave\", \"peaks\"],\n  \"size\": \"L\",\n  \"price\": 899\n}" } } },
+        { "name": "Send contact message",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "url": "{{baseUrl}}/contact",
+            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Test User\",\n  \"email\": \"test@example.com\",\n  \"subject\": \"Sizing\",\n  \"message\": \"Which size should I pick?\"\n}" } } }
+      ]
+    },
+    {
+      "name": "Admin only",
+      "item": [
+        { "name": "All orders (admin token)", "request": { "method": "GET", "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }], "url": "{{baseUrl}}/admin/orders" } },
+        { "name": "All messages (admin token)", "request": { "method": "GET", "header": [{ "key": "Authorization", "value": "Bearer {{token}}" }], "url": "{{baseUrl}}/admin/messages" } }
+      ]
+    }
+  ]
+}

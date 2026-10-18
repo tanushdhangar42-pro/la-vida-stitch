@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img">
+<defs>
+<linearGradient id="cv" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1c1f27"/><stop offset="55%" stop-color="#12141a"/><stop offset="100%" stop-color="#0b0c10"/>
+</linearGradient>
+<filter id="weave" x="0" y="0" width="100%" height="100%">
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="7" result="n"/>
+<feColorMatrix in="n" type="saturate" values="0"/>
+<feComponentTransfer><feFuncA type="linear" slope="0.14"/></feComponentTransfer>
+</filter>
+<radialGradient id="lift" cx="34%" cy="24%" r="78%">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+
+</defs>
+<rect x="6" y="6" width="388" height="388" rx="9" fill="url(#cv)"/>
+<rect x="6" y="6" width="388" height="388" rx="9" filter="url(#weave)" opacity="0.55"/>
+<rect x="6" y="6" width="388" height="388" rx="9" fill="url(#lift)"/>
+<g>
+<circle cx="292" cy="116" r="44" fill="#e0b256" opacity="0.92"/>
+<path d="M30 250 C 78 150, 176 132, 226 206 C 252 244, 238 286, 200 292
+ C 170 296, 152 274, 160 250 C 168 228, 192 224, 204 240
+ C 190 232, 176 240, 174 254 C 170 276, 190 288, 210 280 C 240 268, 244 226, 218 200
+ C 176 156, 96 176, 58 264 Z" fill="#e9edf2"/>
+<path d="M44 268 C 96 190, 168 180, 206 226" fill="none" stroke="#7d93a8" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+<path d="M30 250 C 78 150, 176 132, 226 206" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+<g fill="#e9edf2" opacity="0.9">
+<circle cx="120" cy="164" r="7"/><circle cx="152" cy="146" r="5"/><circle cx="186" cy="152" r="6"/>
+<circle cx="96" cy="188" r="4"/><circle cx="214" cy="172" r="4"/>
+</g>
+<path d="M36 300 C 100 286, 140 316, 200 300 C 258 284, 300 316, 364 300" fill="none"
+ stroke="#7d93a8" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
+<path d="M36 328 C 100 314, 140 344, 200 328 C 258 312, 300 344, 364 328" fill="none"
+ stroke="#7d93a8" stroke-width="3" stroke-linecap="round" opacity="0.4"/></g>
+<rect x="17" y="17" width="366" height="366" rx="5" fill="none"
+ stroke="#ffffff" stroke-opacity="0.26" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+<rect x="6.5" y="6.5" width="387" height="387" rx="9" fill="none" stroke="#000" stroke-opacity="0.65" stroke-width="3"/>
+</svg>

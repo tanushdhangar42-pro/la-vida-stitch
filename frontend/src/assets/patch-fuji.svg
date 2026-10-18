@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img">
+<defs>
+<linearGradient id="cv" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#1c1f27"/><stop offset="55%" stop-color="#12141a"/><stop offset="100%" stop-color="#0b0c10"/>
+</linearGradient>
+<filter id="weave" x="0" y="0" width="100%" height="100%">
+<feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="7" result="n"/>
+<feColorMatrix in="n" type="saturate" values="0"/>
+<feComponentTransfer><feFuncA type="linear" slope="0.14"/></feComponentTransfer>
+</filter>
+<radialGradient id="lift" cx="34%" cy="24%" r="78%">
+<stop offset="0%" stop-color="#ffffff" stop-opacity="0.10"/>
+<stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#cfd6de"/></linearGradient>
+</defs>
+<rect x="6" y="6" width="388" height="388" rx="9" fill="url(#cv)"/>
+<rect x="6" y="6" width="388" height="388" rx="9" filter="url(#weave)" opacity="0.55"/>
+<rect x="6" y="6" width="388" height="388" rx="9" fill="url(#lift)"/>
+<g>
+<circle cx="150" cy="140" r="62" fill="#d8323c"/>
+<circle cx="150" cy="140" r="62" fill="none" stroke="#ff6b6b" stroke-opacity="0.35" stroke-width="2"/>
+<path d="M44 300 L150 146 L256 300 Z" fill="#2b3240"/>
+<path d="M112 196 L150 146 L188 196 L172 206 L160 194 L150 208 L138 192 L126 204 Z" fill="url(#snow)"/>
+<path d="M44 300 L150 146 L256 300 Z" fill="none" stroke="#7d8798" stroke-opacity="0.5" stroke-width="2"/>
+<path d="M36 302 H268" stroke="#8b94a4" stroke-opacity="0.45" stroke-width="2"/>
+<g><ellipse cx="83.7" cy="298.9" rx="7.3" ry="5.9" transform="rotate(12 83.7 298.9)" fill="#e8798f" opacity="0.92"/><ellipse cx="71.5" cy="309.9" rx="7.3" ry="5.9" transform="rotate(84 71.5 309.9)" fill="#e8798f" opacity="0.92"/><ellipse cx="57.2" cy="301.7" rx="7.3" ry="5.9" transform="rotate(156 57.2 301.7)" fill="#e8798f" opacity="0.92"/><ellipse cx="60.6" cy="285.6" rx="7.3" ry="5.9" transform="rotate(228 60.6 285.6)" fill="#e8798f" opacity="0.92"/><ellipse cx="77.0" cy="283.9" rx="7.3" ry="5.9" transform="rotate(300 77.0 283.9)" fill="#e8798f" opacity="0.92"/><circle cx="70" cy="296" r="3.6" fill="#f6c9b0"/></g><g><ellipse cx="117.4" cy="320.6" rx="5.2" ry="4.2" transform="rotate(-20 117.4 320.6)" fill="#e8798f" opacity="0.92"/><ellipse cx="114.2" cy="331.9" rx="5.2" ry="4.2" transform="rotate(52 114.2 331.9)" fill="#e8798f" opacity="0.92"/><ellipse cx="102.4" cy="332.3" rx="5.2" ry="4.2" transform="rotate(124 102.4 332.3)" fill="#e8798f" opacity="0.92"/><ellipse cx="98.4" cy="321.2" rx="5.2" ry="4.2" transform="rotate(196 98.4 321.2)" fill="#e8798f" opacity="0.92"/><ellipse cx="107.7" cy="314.0" rx="5.2" ry="4.2" transform="rotate(268 107.7 314.0)" fill="#e8798f" opacity="0.92"/><circle cx="108" cy="324" r="2.6" fill="#f6c9b0"/></g><g><ellipse cx="62.1" cy="335.1" rx="4.2" ry="3.4" transform="rotate(40 62.1 335.1)" fill="#e8798f" opacity="0.92"/><ellipse cx="53.0" cy="337.4" rx="4.2" ry="3.4" transform="rotate(112 53.0 337.4)" fill="#e8798f" opacity="0.92"/><ellipse cx="48.0" cy="329.4" rx="4.2" ry="3.4" transform="rotate(184 48.0 329.4)" fill="#e8798f" opacity="0.92"/><ellipse cx="54.1" cy="322.2" rx="4.2" ry="3.4" transform="rotate(256 54.1 322.2)" fill="#e8798f" opacity="0.92"/><ellipse cx="62.8" cy="325.8" rx="4.2" ry="3.4" transform="rotate(328 62.8 325.8)" fill="#e8798f" opacity="0.92"/><circle cx="56" cy="330" r="2.1" fill="#f6c9b0"/></g><g><ellipse cx="153.9" cy="335.1" rx="4.2" ry="3.4" transform="rotate(8 153.9 335.1)" fill="#e8798f" opacity="0.92"/><ellipse cx="147.4" cy="341.9" rx="4.2" ry="3.4" transform="rotate(80 147.4 341.9)" fill="#e8798f" opacity="0.92"/><ellipse cx="138.9" cy="337.8" rx="4.2" ry="3.4" transform="rotate(152 138.9 337.8)" fill="#e8798f" opacity="0.92"/><ellipse cx="140.2" cy="328.4" rx="4.2" ry="3.4" transform="rotate(224 140.2 328.4)" fill="#e8798f" opacity="0.92"/><ellipse cx="149.5" cy="326.8" rx="4.2" ry="3.4" transform="rotate(296 149.5 326.8)" fill="#e8798f" opacity="0.92"/><circle cx="146" cy="334" r="2.1" fill="#f6c9b0"/></g><g><ellipse cx="101.8" cy="337.1" rx="6.2" ry="5.0" transform="rotate(-35 101.8 337.1)" fill="#e8798f" opacity="0.92"/><ellipse cx="101.6" cy="351.2" rx="6.2" ry="5.0" transform="rotate(37 101.6 351.2)" fill="#e8798f" opacity="0.92"/><ellipse cx="88.1" cy="355.3" rx="6.2" ry="5.0" transform="rotate(109 88.1 355.3)" fill="#e8798f" opacity="0.92"/><ellipse cx="80.0" cy="343.8" rx="6.2" ry="5.0" transform="rotate(181 80.0 343.8)" fill="#e8798f" opacity="0.92"/><ellipse cx="88.5" cy="332.5" rx="6.2" ry="5.0" transform="rotate(253 88.5 332.5)" fill="#e8798f" opacity="0.92"/><circle cx="92" cy="344" r="3.1" fill="#f6c9b0"/></g><g><ellipse cx="182.3" cy="321.0" rx="3.6" ry="2.9" transform="rotate(25 182.3 321.0)" fill="#e8798f" opacity="0.92"/><ellipse cx="175.1" cy="324.9" rx="3.6" ry="2.9" transform="rotate(97 175.1 324.9)" fill="#e8798f" opacity="0.92"/><ellipse cx="169.1" cy="319.3" rx="3.6" ry="2.9" transform="rotate(169 169.1 319.3)" fill="#e8798f" opacity="0.92"/><ellipse cx="172.6" cy="311.9" rx="3.6" ry="2.9" transform="rotate(241 172.6 311.9)" fill="#e8798f" opacity="0.92"/><ellipse cx="180.8" cy="312.9" rx="3.6" ry="2.9" transform="rotate(313 180.8 312.9)" fill="#e8798f" opacity="0.92"/><circle cx="176" cy="318" r="1.8" fill="#f6c9b0"/></g><g><ellipse cx="201.8" cy="341.6" rx="3.1" ry="2.5" transform="rotate(15 201.8 341.6)" fill="#e8798f" opacity="0.92"/><ellipse cx="196.3" cy="346.0" rx="3.1" ry="2.5" transform="rotate(87 196.3 346.0)" fill="#e8798f" opacity="0.92"/><ellipse cx="190.4" cy="342.2" rx="3.1" ry="2.5" transform="rotate(159 190.4 342.2)" fill="#e8798f" opacity="0.92"/><ellipse cx="192.2" cy="335.3" rx="3.1" ry="2.5" transform="rotate(231 192.2 335.3)" fill="#e8798f" opacity="0.92"/><ellipse cx="199.3" cy="335.0" rx="3.1" ry="2.5" transform="rotate(303 199.3 335.0)" fill="#e8798f" opacity="0.92"/><circle cx="196" cy="340" r="1.6" fill="#f6c9b0"/></g>
+<g fill="#f2f4f7" font-family="Georgia, serif" font-size="40" letter-spacing="2">
+<text x="306" y="132" text-anchor="middle">未</text>
+<text x="306" y="182" text-anchor="middle">来</text>
+<text x="306" y="232" text-anchor="middle">を</text>
+<text x="306" y="282" text-anchor="middle">創</text>
+</g>
+<text x="200" y="362" text-anchor="middle" fill="#8b94a4" font-family="DM Sans, sans-serif" font-size="11" letter-spacing="4">CREATE THE FUTURE</text></g>
+<rect x="17" y="17" width="366" height="366" rx="5" fill="none"
+ stroke="#ffffff" stroke-opacity="0.26" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round"/>
+<rect x="6.5" y="6.5" width="387" height="387" rx="9" fill="none" stroke="#000" stroke-opacity="0.65" stroke-width="3"/>
+</svg>

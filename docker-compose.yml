@@ -1,0 +1,41 @@
+# Starts the whole project with one command:  docker compose up --build
+# Website: http://localhost:3000     API: http://localhost:8080/api/products
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: lavida-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: lavida_stitch
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build: ./backend
+    container_name: lavida-backend
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:mysql://mysql:3306/lavida_stitch?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+      DB_USERNAME: root
+      DB_PASSWORD: root
+      JWT_SECRET: la-vida-stitch-docker-secret-key-change-me-123456
+    ports:
+      - "8080:8080"
+
+  frontend:
+    build: ./frontend
+    container_name: lavida-frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:80"
+
+volumes:
+  mysql-data:

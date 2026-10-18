@@ -1,0 +1,401 @@
+[
+  {
+    "id": "essential-black-tee",
+    "name": "Essential Black Tee",
+    "price": 1299,
+    "category": "T-Shirts",
+    "image": "photo/model-real-black-patched",
+    "modelImage": "photo/model-real-black-patched",
+    "gallery": [
+      "photo/model-real-black-patched",
+      "photo/real-tee-black",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/detail-patch-front"
+    ],
+    "colors": [
+      "Black",
+      "Olive",
+      "Clay"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.8,
+    "reviews": 126,
+    "includedPatchId": "fuji",
+    "description": "Our core tee. A 240 GSM midweight body with a soft velcro loop panel sewn into the chest. Flat and barely visible when nothing is on it. Ships with the Fuji Rise patch on it.",
+    "material": "240 GSM combed cotton, bio-washed",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "signature-white-tee",
+    "name": "Signature Off-White Tee",
+    "price": 1299,
+    "category": "T-Shirts",
+    "image": "photo/model-real-white",
+    "modelImage": "photo/model-real-white",
+    "gallery": [
+      "photo/model-real-white",
+      "photo/real-tee-white",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Off White",
+      "Sand",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.7,
+    "reviews": 98,
+    "includedPatchId": "goodvibes",
+    "description": "The cleanest canvas we make. Off-white, structured neckline, and a dark patch reads loud against it. Ships with the Good Vibes patch.",
+    "material": "240 GSM combed cotton, bio-washed",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "sand-oversized-tee",
+    "name": "Sand Oversized Tee",
+    "price": 1499,
+    "category": "Oversized",
+    "image": "photo/model-real-sand-patched",
+    "modelImage": "photo/model-real-sand-patched",
+    "gallery": [
+      "photo/model-real-sand-patched",
+      "photo/real-tee-sand",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Sand",
+      "Off White",
+      "Clay"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.9,
+    "reviews": 211,
+    "includedPatchId": "bloom",
+    "description": "Boxy shoulders, dropped sleeves, 280 GSM hand feel. The extra chest width gives a 20 cm patch room to sit properly. Ships with the Bloom patch.",
+    "material": "280 GSM heavyweight cotton",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "olive-regular-tee",
+    "name": "Olive Regular Tee",
+    "price": 1349,
+    "category": "T-Shirts",
+    "image": "photo/model-real-olive-patched",
+    "modelImage": "photo/model-real-olive-patched",
+    "gallery": [
+      "photo/model-real-olive-patched",
+      "photo/real-tee-olive",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Olive",
+      "Clay",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.6,
+    "reviews": 74,
+    "includedPatchId": "peaks",
+    "description": "Earth-toned and endlessly wearable, with tonal stitching so the panel edge disappears completely. Ships with the High Ground patch.",
+    "material": "240 GSM combed cotton, garment dyed",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "midnight-oversized-tee",
+    "name": "Midnight Oversized Tee",
+    "price": 1549,
+    "category": "Oversized",
+    "image": "photo/model-real-black",
+    "modelImage": "photo/model-real-black",
+    "gallery": [
+      "photo/model-real-black",
+      "photo/real-tee-black",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/detail-patch-front"
+    ],
+    "colors": [
+      "Black",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.8,
+    "reviews": 143,
+    "includedPatchId": "wave",
+    "description": "Deep matte black, drop shoulder, heavy drape. Swap the patch and the whole outfit reads new. Ships with the Break Water patch.",
+    "material": "280 GSM heavyweight cotton",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "clay-relaxed-tee",
+    "name": "Clay Relaxed Tee",
+    "price": 1349,
+    "category": "T-Shirts",
+    "image": "photo/real-tee-clay",
+    "modelImage": "photo/real-tee-clay",
+    "gallery": [
+      "photo/real-tee-clay",
+      "photo/model-real-sand",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Clay",
+      "Sand"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.5,
+    "reviews": 62,
+    "includedPatchId": "butterfly",
+    "description": "A warm clay brown with a relaxed body. Pairs best with the nature patches. Ships with the Monarch patch.",
+    "material": "240 GSM combed cotton, garment dyed",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "ivory-oversized-tee",
+    "name": "Ivory Oversized Tee",
+    "price": 1499,
+    "category": "Oversized",
+    "image": "photo/model-real-white",
+    "modelImage": null,
+    "gallery": [
+      "photo/model-real-white",
+      "photo/real-tee-white",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Off White",
+      "Sand"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.7,
+    "reviews": 88,
+    "includedPatchId": "smile",
+    "description": "Ivory, boxy and bright. The highest-contrast base we sell for dark patches. Ships with the Sunny Side patch.",
+    "material": "280 GSM heavyweight cotton",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "olive-oversized-tee",
+    "name": "Olive Oversized Tee",
+    "price": 1499,
+    "category": "Oversized",
+    "image": "photo/model-real-olive",
+    "modelImage": null,
+    "gallery": [
+      "photo/model-real-olive",
+      "photo/real-tee-olive",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Olive",
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.7,
+    "reviews": 91,
+    "includedPatchId": "riseup",
+    "description": "Muted olive, boxy cut, built to be restyled daily. Ships with the Rise Up patch.",
+    "material": "280 GSM heavyweight cotton",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "starter-kit-black",
+    "name": "Starter Kit — Black Tee + 3 Patches",
+    "price": 2199,
+    "category": "Starter Kits",
+    "image": "photo/model-real-black-patched",
+    "modelImage": null,
+    "gallery": [
+      "photo/model-real-black-patched",
+      "photo/real-tee-black",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Black"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.9,
+    "reviews": 168,
+    "includedPatchId": "peaks",
+    "description": "The whole idea in one box: one Essential Black Tee plus three patches — High Ground, Break Water and Keep Moving. Three outfits, one garment, ₹900 less than buying them apart.",
+    "material": "240 GSM combed cotton + 3 velcro patches",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "starter-kit-neutral",
+    "name": "Starter Kit — Sand Tee + 3 Patches",
+    "price": 2299,
+    "category": "Starter Kits",
+    "image": "photo/model-real-sand-patched",
+    "modelImage": null,
+    "gallery": [
+      "photo/model-real-sand-patched",
+      "photo/real-tee-sand",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Sand"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.8,
+    "reviews": 94,
+    "includedPatchId": "wordmark",
+    "description": "A Sand Oversized Tee with the La Vida wordmark, Bloom and Good Vibes patches. Built for people who want the neutral wardrobe with three moods in it.",
+    "material": "280 GSM heavyweight cotton + 3 velcro patches",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "clay-oversized-tee",
+    "name": "Clay Oversized Tee",
+    "price": 1499,
+    "category": "Oversized",
+    "image": "photo/real-tee-clay",
+    "modelImage": null,
+    "gallery": [
+      "photo/real-tee-clay",
+      "photo/model-real-sand",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/detail-patch-front"
+    ],
+    "colors": [
+      "Clay",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.6,
+    "reviews": 57,
+    "includedPatchId": "orbit",
+    "description": "Warm clay in an oversized cut. Ships with the Keep Moving patch.",
+    "material": "280 GSM heavyweight cotton",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  },
+  {
+    "id": "off-white-regular-tee",
+    "name": "Off-White Regular Tee",
+    "price": 1299,
+    "category": "T-Shirts",
+    "image": "photo/model-real-white",
+    "modelImage": null,
+    "gallery": [
+      "photo/model-real-white",
+      "photo/real-tee-white",
+      "photo/tee-front-view",
+      "photo/tee-back-view",
+      "photo/patch-front-fuji"
+    ],
+    "colors": [
+      "Off White",
+      "Sand",
+      "Olive"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "rating": 4.6,
+    "reviews": 69,
+    "includedPatchId": "heart",
+    "description": "The regular-fit version of our off-white base. Ships with the Still Beating patch.",
+    "material": "240 GSM combed cotton, bio-washed",
+    "care": "Peel the patch off before washing, and close the panel flap. Machine wash cold, inside out, tumble dry low.",
+    "patchCompatible": "Fits every 20 × 20 cm La Vida Stitch patch — the velcro panel is identical on all our tees."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "everyday",
+    "name": "Everyday Cotton",
+    "gsm": "180 GSM",
+    "price": 699,
+    "description": "Light, breathable cotton for everyday wear."
+  },
+  {
+    "id": "premium",
+    "name": "Premium Cotton",
+    "gsm": "200 GSM",
+    "price": 899,
+    "description": "Softer hand feel with a little more structure."
+  },
+  {
+    "id": "bio-washed",
+    "name": "Bio-Washed Cotton",
+    "gsm": "240 GSM",
+    "price": 1099,
+    "description": "Smooth, premium finish with a substantial feel."
+  },
+  {
+    "id": "heavyweight",
+    "name": "Heavyweight Cotton",
+    "gsm": "280 GSM",
+    "price": 1299,
+    "description": "Our most substantial fabric with a premium drape."
+  }
+]

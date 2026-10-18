@@ -1,0 +1,110 @@
+[
+  {
+    "id": "fuji",
+    "name": "Fuji Rise",
+    "tagline": "Red sun over Fuji, with 未来を創る — create the future.",
+    "image": "patch-fuji",
+    "price": 399,
+    "category": "Graphic",
+    "tone": "#d8323c"
+  },
+  {
+    "id": "peaks",
+    "name": "High Ground",
+    "tagline": "Snow ridges under a quiet night sky.",
+    "image": "patch-peaks",
+    "price": 379,
+    "category": "Travel",
+    "tone": "#3c4757"
+  },
+  {
+    "id": "wave",
+    "name": "Break Water",
+    "tagline": "A single curling wave and a low gold sun.",
+    "image": "patch-wave",
+    "price": 379,
+    "category": "Nature",
+    "tone": "#7d93a8"
+  },
+  {
+    "id": "goodvibes",
+    "name": "Good Vibes",
+    "tagline": "Two words on an ivory label. Nothing else needed.",
+    "image": "patch-goodvibes",
+    "price": 329,
+    "category": "Typography",
+    "tone": "#efe7d6"
+  },
+  {
+    "id": "smile",
+    "name": "Sunny Side",
+    "tagline": "The one that makes strangers smile back.",
+    "image": "patch-smile",
+    "price": 299,
+    "category": "Minimal",
+    "tone": "#e5b93f"
+  },
+  {
+    "id": "butterfly",
+    "name": "Monarch",
+    "tagline": "Hand-drawn monarch wings in burnt amber.",
+    "image": "patch-butterfly",
+    "price": 399,
+    "category": "Nature",
+    "tone": "#c87f35"
+  },
+  {
+    "id": "bloom",
+    "name": "Bloom",
+    "tagline": "Eight petals, one stem, drawn in a single weight.",
+    "image": "patch-bloom",
+    "price": 349,
+    "category": "Nature",
+    "tone": "#c98f52"
+  },
+  {
+    "id": "orbit",
+    "name": "Keep Moving",
+    "tagline": "A ringed planet mid-orbit. For people who don't sit still.",
+    "image": "patch-orbit",
+    "price": 379,
+    "category": "Travel",
+    "tone": "#4b6273"
+  },
+  {
+    "id": "bolt",
+    "name": "High Voltage",
+    "tagline": "One bolt, dashed halo, zero subtlety.",
+    "image": "patch-bolt",
+    "price": 329,
+    "category": "Graphic",
+    "tone": "#e5b93f"
+  },
+  {
+    "id": "heart",
+    "name": "Still Beating",
+    "tagline": "A heart with its own ECG running through it.",
+    "image": "patch-heart",
+    "price": 349,
+    "category": "Graphic",
+    "tone": "#a8483f"
+  },
+  {
+    "id": "riseup",
+    "name": "Rise Up",
+    "tagline": "Sun, climb, horizon line. A good Monday patch.",
+    "image": "patch-riseup",
+    "price": 359,
+    "category": "Typography",
+    "tone": "#d8a13c"
+  },
+  {
+    "id": "wordmark",
+    "name": "La Vida",
+    "tagline": "The house wordmark, for when the tee should speak plainly.",
+    "image": "patch-wordmark",
+    "price": 299,
+    "category": "Minimal",
+    "tone": "#efe7d6"
+  }
+]
